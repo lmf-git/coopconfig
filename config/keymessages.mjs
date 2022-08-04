@@ -4,7 +4,6 @@ export default {
     "about_optout_msg": "https://discordapp.com/channels/723660447508725802/762472730980515870/862443667930742814",
     "about_gamesopt_msg": "https://discordapp.com/channels/723660447508725802/762472730980515870/811321280682655784",
     "about_academyagency_msg": "https://discordapp.com/channels/723660447508725802/762472730980515870/815692248779587595",
-    "sacrifice_info_msg": "https://discordapp.com/channels/723660447508725802/816022755790815263/821908596216168519",
     "about_guide_msg": "https://discord.com/channels/723660447508725802/762472730980515870/881597281198047253",
     "bonuseggs_optin_msg": "https://discord.com/channels/723660447508725802/762472730980515870/910182022926970900",
     "treefell_optin_msg": "https://discord.com/channels/723660447508725802/762472730980515870/910283980505489468",
