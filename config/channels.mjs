@@ -79,6 +79,9 @@ export default {
     "CREATIVITY": {
         "id": "902692896791212052",
         "spammable": true
+    },
+    "STOCKS_VC": {
+        "id": "901562855814492170"
     }
     
 }

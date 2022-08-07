@@ -9,5 +9,6 @@ export default {
     "treefell_optin_msg": "https://discord.com/channels/723660447508725802/762472730980515870/910283980505489468",
     "rockslide_optin_msg": "https://discord.com/channels/723660447508725802/762472730980515870/910286775933599824",
     "intropostedping_optin_msg": "https://discord.com/channels/723660447508725802/762472730980515870/916119587051946004",
-    "cratedrop_optin_msg": "https://discord.com/channels/723660447508725802/762472730980515870/916135302995804230"
+    "cratedrop_optin_msg": "https://discord.com/channels/723660447508725802/762472730980515870/916135302995804230",
+    "usstockopen_optin_msg": "https://discord.com/channels/723660447508725802/762472730980515870/1005953958889668742"
 }

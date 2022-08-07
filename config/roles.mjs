@@ -99,5 +99,8 @@ export default {
     },
     "CRATEDROP_PING": {
         "id": "916135701488209940"
+    },
+    "MARKET_OPEN_PING": {
+        "id": "1004584945202765844"
     }
 }
