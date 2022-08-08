@@ -82,6 +82,9 @@ export default {
     },
     "STOCKS_VC": {
         "id": "901562855814492170"
+    },
+    "STOCKS_VC_TEXT": {
+        "id": "985662242727018576"
     }
     
 }
