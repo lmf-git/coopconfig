@@ -1,19 +1,22 @@
 {
-  "name": "coopshared",
-  "version": "1.0.24",
-  "description": "",
+  "name": "coop-shared",
+  "version": "1.0.25",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lmf-git/coopconfig.git"
+    "url": "git+https://github.com/lmf-git/coop-shared.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lmf-git/coopconfig/issues"
+    "url": "https://github.com/lmf-git/coop-shared/issues"
   },
-  "homepage": "https://github.com/lmf-git/coopconfig#readme"
+  "homepage": "https://thecoop.group",
+  "dependencies": {
+    "aws-sdk": "^2.1198.0",
+    "pg": "^8.7.3"
+  }
 }

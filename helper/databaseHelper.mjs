@@ -1,4 +1,4 @@
-import Database from "../organisation/setup/database.mjs";
+import Database from "../setup/database.mjs";
 
 export default class DatabaseHelper {
 
