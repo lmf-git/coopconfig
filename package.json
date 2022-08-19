@@ -1,5 +1,5 @@
 {
-  "name": "coop-shared",
+  "name": "@coop-group/shared",
   "version": "1.0.26",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/lmf-git/coop-shared.git"
   },
-  "author": "",
+  "author": "coop-group",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lmf-git/coop-shared/issues"
@@ -18,5 +18,7 @@
   "dependencies": {
     "aws-sdk": "^2.1198.0",
     "pg": "^8.7.3"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
