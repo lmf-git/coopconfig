@@ -22,7 +22,7 @@ export default {
         "id": "748649755965522031"
     },
     "FOCUSART": {
-        "id": "779330299103674368",
+        "id": "902593785500946472",
         "spammable": true
     },
     "ABOUT": {
@@ -32,14 +32,11 @@ export default {
         "id": "762472730980515870"
     },
     "ADVERTS": {
-        "id": "730592584509947946"
+        "id": "730592584509947946",
+        "spammable": true
     },
     "FEED": {
         "id": "796493571971874836",
-        "spammable": true
-    },
-    "LOGS": {
-        "id": "796156573771759676",
         "spammable": true
     },
     "TRADE": {
@@ -55,10 +52,6 @@ export default {
         "id": "822204573409083392",
         "spammable": true
     },
-    "ART_CHAT": {
-        "id": "779330299103674368",
-        "spammable": true
-    },
     "TECHNOLOGY_COMPETITION": {
         "id": "845603416720801843"
     },
@@ -68,23 +61,12 @@ export default {
     "BUSINESS_COMPETITION": {
         "id": "845603592940945418"
     },
-    "ECONOMICS": {
-        "id": "796156573771759676",
-        "spammable": true
-    },
-    "MARKETING": {
-        "id": "838108309286027336",
-        "spammable": true
-    },
-    "CREATIVITY": {
-        "id": "902692896791212052",
-        "spammable": true
-    },
     "STOCKS_VC": {
         "id": "901562855814492170"
     },
     "STOCKS_VC_TEXT": {
-        "id": "985662242727018576"
+        "id": "1009109018716946473",
+        "spammable": true
     }
     
 }
