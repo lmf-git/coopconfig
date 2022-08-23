@@ -48,7 +48,7 @@ export default class Useable {
         // Check if enough qty of item is owned.
         if (ownedQty - useQty >= 0) {
             // TODO: Just ensure that subtract does this itself...? Get rid of use?
-            await ITEMS.subtract(userID, itemCode, useQty, note);
+            await Items.subtract(userID, itemCode, useQty, note);
             return true;
         } else return false;
     }

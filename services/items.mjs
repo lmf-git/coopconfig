@@ -114,4 +114,29 @@ export default class Items {
         };
         return await Database.query(query);
     }
+
+    static async add(userID, itemCode, quantity, sourceReason = 'unknown') {
+        // TODO: Could make item source throw an error if not declared.
+        const query = {
+            name: "add-item",
+            text: `INSERT INTO items(owner_id, item_code, quantity)
+                VALUES($1, $2, $3) 
+                ON CONFLICT (owner_id, item_code)
+                DO 
+                UPDATE SET quantity = items.quantity + EXCLUDED.quantity
+                RETURNING quantity`,
+            values: [userID, itemCode, quantity]
+        };
+        
+        const result = await Database.query(query);
+        const newQty = DatabaseHelper.singleField(result, 'quantity', 0)
+
+        // Get the total of that item now.
+        const total = await this.count(itemCode);
+        
+        await this.saveTransaction(userID, itemCode, quantity, total, sourceReason);
+
+        return newQty;
+    }
+    
 }

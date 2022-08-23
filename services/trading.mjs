@@ -1,6 +1,9 @@
 import Database from "../setup/database.mjs";
 import DatabaseHelper from "../helper/databaseHelper.mjs";
 
+import Items from '../services/items.mjs';
+import Useable from "./useable.mjs";
+
 export default class Trading {
 
     // Defaults to returning 15 latest trades.
@@ -51,7 +54,7 @@ export default class Trading {
     static async close(trade) {
         try {
             // Add the offer items to the cancelee.
-            await ITEMS.add(trade.trader_id, trade.offer_item, trade.offer_qty, 'Trade cancelled');
+            await Items.add(trade.trader_id, trade.offer_item, trade.offer_qty, 'Trade cancelled');
 
             // Delete/close the open trade offer.
             await this.remove(trade.id);
@@ -67,13 +70,13 @@ export default class Trading {
 
     static async resolve(trade, accepteeID) {
         try {
-            const didUse = await USABLE.use(accepteeID, trade.receive_item, trade.receive_qty);
+            const didUse = await Useable.use(accepteeID, trade.receive_item, trade.receive_qty);
             if (didUse) {
                 // Add the offer items to the acceptee.
-                await ITEMS.add(accepteeID, trade.offer_item, trade.offer_qty, 'Trade accepted');
+                await Items.add(accepteeID, trade.offer_item, trade.offer_qty, 'Trade accepted');
     
                 // Add the receive items to the trader.
-                await ITEMS.add(trade.trader_id, trade.receive_item, trade.receive_qty, 'Trade accepted');
+                await Items.add(trade.trader_id, trade.receive_item, trade.receive_qty, 'Trade accepted');
     
                 // Delete/close the open trade offer.
                 await this.remove(trade.id);
