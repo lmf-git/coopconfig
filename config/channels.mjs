@@ -26,9 +26,6 @@ export default {
         "spammable": true
     },
     "ABOUT": {
-        "id": "841126959298773052"
-    },
-    "ROLES": {
         "id": "762472730980515870"
     },
     "ADVERTS": {
