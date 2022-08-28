@@ -8,8 +8,14 @@ export default class Users {
     // loadSingleForStaticGeneration
     // load
     // searchByUsername
-
-
+    
+    static loadSingleConquest(id) {
+        return DatabaseHelper.singleQuery({
+            name: "get-user-conquest",
+            text: "SELECT discord_id, x, y, z FROM users WHERE discord_id = $1",
+            values: [id]
+        });
+    }
 
 	static async get(id) {
         const query = {

@@ -17,7 +17,10 @@
   "homepage": "https://thecoop.group",
   "dependencies": {
     "aws-sdk": "^2.1198.0",
+    "axios": "^0.27.2",
     "chance": "^1.1.8",
+    "jsonwebtoken": "^8.5.1",
+    "passport-jwt": "^4.0.0",
     "pg": "^8.7.3"
   },
   "devDependencies": {},
