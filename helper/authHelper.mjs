@@ -1,5 +1,4 @@
 import axios from 'axios';
-import passport from 'passport';
 import jwt from 'jsonwebtoken';
 import { Strategy } from 'passport-jwt';
 
@@ -40,10 +39,6 @@ export default class Auth {
 				headers: {  'Content-Type': 'application/x-www-form-urlencoded' }
 			}
 		);
-
-	static guard() {
-		return passport.authenticate('jwt', { session: false });
-	}
 
 	static strategy() {
 		const opts = {
