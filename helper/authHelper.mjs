@@ -3,7 +3,7 @@ import passport from 'passport';
 import jwt from 'jsonwebtoken';
 import { Strategy } from 'passport-jwt';
 
-import Users from 'coop-shared/services/users.mjs';
+import Users from '../services/users.mjs';
 
 export default class Auth {
 
@@ -33,7 +33,7 @@ export default class Auth {
 					process.env.NODE_ENV !== 'development' ?
 						`https://thecoop.group/auth/authorise`
 						:
-						`http://localhost:3000/auth/authorise`,
+						`http://localhost:4500/auth/authorise`,
 				scope: 'identify'
 			}),
 			{ 
