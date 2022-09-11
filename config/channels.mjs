@@ -32,10 +32,6 @@ export default {
         "id": "730592584509947946",
         "spammable": true
     },
-    "FEED": {
-        "id": "796493571971874836",
-        "spammable": true
-    },
     "TRADE": {
         "id": "796553158331596821"
     },
