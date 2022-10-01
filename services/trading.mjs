@@ -29,6 +29,17 @@ export default class Trading {
         return DatabaseHelper.many(result);
     }
 
+    static async remove(tradeID) {
+        const query = {
+            name: "remove-trade-id",
+            text: `DELETE FROM open_trades WHERE id = $1`,
+            values: [tradeID]
+        };
+
+        const result = await Database.query(query);
+        return result;
+    }
+
     static async get(tradeID) {
         const query = {
             name: "get-open-trade-id",

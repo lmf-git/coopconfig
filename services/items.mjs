@@ -106,6 +106,17 @@ export default class Items {
         return successInsert;
     }
 
+    static async getTransactionRowCount() {
+        const query = {
+            name: "transactions-rows-count",
+            text: `SELECT COUNT(*) FROM item_qty_change_history`
+        };  
+
+        const result = await Database.query(query);
+        const numTxRows = DatabaseHelper.singleField(result, 'count', 0);
+        return numTxRows;
+    }
+
     static async delete(userID, itemCode) {
         const query = {
             name: "delete-item",
