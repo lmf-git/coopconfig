@@ -1,7 +1,4 @@
 export default {
-    "ANNOUNCEMENTS": {
-        "id": "726835640804704267"
-    },
     "MEMBER": {
         "name": "member 💛‍",
         "id": "724394130465357915"

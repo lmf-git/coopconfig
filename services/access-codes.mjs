@@ -55,6 +55,16 @@ export default class AccessCodes {
         return false;
     }
 
+    static async _createLink(userID) {
+        const code = await this.create(userID);
+        const link = this.link(code);
+        return await interaction.reply({ content: link, ephemeral: true });
+    }
+
+    static async link(code) {
+        return 'https://thecoop.group/auth/authorise?method=cooper_dm&code=' + code;
+    }
+
     static async create(discord_id) {
         // I removed the special characters because sometimes the codes weren't matching,
         // this made me suspicious some dots from the token or other characters may not encodeURI/play nicely.
