@@ -58,7 +58,7 @@ export default class AccessCodes {
     static async _createLink(userID) {
         const code = await this.create(userID);
         const link = this.link(code);
-        return await interaction.reply({ content: link, ephemeral: true });
+        return link;
     }
 
     static async link(code) {
