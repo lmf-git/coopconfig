@@ -60,10 +60,5 @@ export default {
     "STOCKS_VC_TEXT": {
         "id": "1009109018716946473",
         "spammable": true
-    },
-
-    "MEMBER_GUIDE": {
-        "id": "https://discord.com/channels/723660447508725802/900739824821096538"
     }
-    
 }

@@ -19,12 +19,6 @@ export default {
         "name": "announcements",
         "id": "726835640804704267"
     },
-    "THEMOB": {
-        "id": "754826407200292934"
-    },
-    "AREVERYSOCIAL": {
-        "id": "727576284074344489"
-    },
     "MOSTPOINTS": {
         "id": "780116637197926420"
     },
@@ -73,29 +67,14 @@ export default {
     "MOST_ITEMS": {
         "id": "821922830613479424"
     },
-    "GUIDE": {
-        "id": "879048085215526954"
-    },
-    "STOCKS": {
-        "id": "901552348512538684"
-    },
     "SUPPORTER": {
         "id": "904477558928715776"
     },
-    "BONUS_EGGS_PING": {
-        "id": "910178304290607196"
-    },
-    "TREE_FELL_PING": {
-        "id": "910285782940520468"
-    },
-    "ROCK_SLIDE_PING": {
-        "id": "910286072913756180"
+    "MINIGAME_PING": {
+        "id": "916135701488209940"
     },
     "INTRO_POSTED_PING": {
         "id": "916116514401316904"
-    },
-    "CRATEDROP_PING": {
-        "id": "916135701488209940"
     },
     "MARKET_OPEN_PING": {
         "id": "1004584945202765844"
