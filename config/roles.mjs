@@ -107,5 +107,8 @@ export default {
     "MARKET_OPEN_PING": {
         "id": "1004584945202765844",
         "category": "MONEY"
+    },
+    "NEW_COOP_DAY": {
+        "id": "1009109018716946473"
     }
 }

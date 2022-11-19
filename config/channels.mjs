@@ -3,6 +3,9 @@ export default {
         "id": "723660447508725806",
         "spammable": true
     },
+    "TALK_VC": {
+        "id": "909096727489953823"
+    },
     "ACTIONS": {
         "id": "731660320514506826"
     },
@@ -60,5 +63,8 @@ export default {
     "STOCKS_VC_TEXT": {
         "id": "1009109018716946473",
         "spammable": true
+    },
+    "CREATE_SOCIAL": {
+        "id": "1009109018716946473"
     }
 }
