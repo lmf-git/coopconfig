@@ -109,6 +109,6 @@ export default {
         "category": "MONEY"
     },
     "NEW_COOP_DAY": {
-        "id": "1009109018716946473"
+        "id": "1029396511789953075"
     }
 }
