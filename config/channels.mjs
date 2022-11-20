@@ -72,6 +72,6 @@ export default {
         "spammable": true
     },
     "SOCIAL_VC": {
-        "id": "1043683526542893136"
+        "id": "1043686381295247411"
     }
 }
