@@ -52,16 +52,12 @@ export default {
         "id": "727512898741600358",
         "category": "INTEREST"
     },
-    "BUSINESS": {
+    "MONEY": {
         "id": "725531758744961114",
         "category": "INTEREST"
     },
     "ART": {
         "id": "727513157374967879",
-        "category": "INTEREST"
-    },
-    "FITNESS": {
-        "id": "",
         "category": "INTEREST"
     },
     "SOCIAL": {
