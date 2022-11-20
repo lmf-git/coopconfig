@@ -66,5 +66,8 @@ export default {
     },
     "CREATE_SOCIAL": {
         "id": "1043359464880877569"
+    },
+    "SOCIAL_VC": {
+        "id": "1043681264873525308"
     }
 }
