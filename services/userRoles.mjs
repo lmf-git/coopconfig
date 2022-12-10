@@ -1,4 +1,4 @@
-import DatabaseHelper from "coop-shared/helper/databaseHelper.mjs";
+import DatabaseHelper from "../helper/databaseHelper.mjs";
 
 export default class UserRoles {
 
@@ -12,6 +12,13 @@ export default class UserRoles {
         return DatabaseHelper.manyQuery({
             text: 'SELECT * FROM user_roles WHERE discord_id = $1',
             values: [id]
+        });
+    }
+
+    static find(discordID, roleID) {
+         return DatabaseHelper.singleQuery({
+            text: 'SELECT * FROM user_roles WHERE discord_id = $1 AND role_id = $2',
+            values: [discordID, roleID]
         });
     }
 

@@ -3,32 +3,37 @@ export default {
         "name": "Member 🐔",
         "id": "724394130465357915",
         "category": "DEMOCRACY",
-        "description": "Testing description"
+        "description": "Testing description",
+        "locked": true
     },
     "COMMANDER": {
         "name": "Commander 👑",
         "id": "727311131705868299",
         "category": "DEMOCRACY",
-        "description": ""
+        "description": "",
+        "locked": true
     },
     "LEADER": {
         "name": "Leader ⚔️",
         "id": "723676356818239773",
         "category": "DEMOCRACY",
-        "description": ""
+        "description": "",
+        "locked": true
     },
     "PROSPECT": {
         "name": "Prospect",
         "id": "811689644131483648",
         "category": "DEMOCRACY",
-        "description": ""
+        "description": "",
+        "locked": true
     },
 
     "BEGINNER": {
         "name": "Beginner 🥚",
         "id": "725531274973937664",
         "category": "REWARD",
-        "description": ""
+        "description": "",
+        "locked": true
     },
     "SUBSCRIBER": {
         "name": "Announcements",
@@ -40,13 +45,15 @@ export default {
         "name": "Most Points",
         "id": "780116637197926420",
         "category": "REWARD",
-        "description": ""
+        "description": "",
+        "locked": true
     },
     "MEMBEROFWEEK": {
         "name": "Member Of Week",
         "id": "725406725615779922",
         "category": "REWARD",
-        "description": ""
+        "description": "",
+        "locked": true
     },
     // "FORMER_COMMANDER": {
     //     "name": "Former Commander",
@@ -55,22 +62,25 @@ export default {
     // "description": ""
     // },
     "RICHEST": {
-        "name": "RICHEST",
+        "name": "Richest",
         "id": "821922924138463232",
         "category": "REWARD",
-        "description": ""
+        "description": "",
+        "locked": true
     },
     "MOST_ITEMS": {
-        "name": "MOST_ITEMS",
+        "name": "Most Items",
         "id": "821922830613479424",
         "category": "REWARD",
-        "description": ""
+        "description": "",
+        "locked": true
     },
     "SUPPORTER": {
-        "name": "SUPPORTER",
+        "name": "Supporter",
         "id": "904477558928715776",
         "category": "REWARD",
-        "description": ""
+        "description": "",
+        "locked": true
     },
 
     "PROJECTS": {
@@ -111,15 +121,14 @@ export default {
         "description": ""
     },
 
-
     "MINIGAME_PING": {
-        "name": "MINIGAME_PING",
+        "name": "Minigame Ping",
         "id": "916135701488209940",
         "category": "NOTIFICATION",
         "description": ""
     },
-    "INTRO_POSTED_PING": {
-        "name": "INTRO_POSTED_PING",
+    "INSIDER": {
+        "name": "Insider",
         "id": "916116514401316904",
         "category": "NOTIFICATION",
         "description": ""
@@ -131,7 +140,7 @@ export default {
         "description": ""
     },
     "NEW_COOP_DAY": {
-        "name": "NEW_COOP_DAY",
+        "name": "Coop Daily",
         "id": "1029396511789953075",
         "category": "NOTIFICATION",
         "description": ""
