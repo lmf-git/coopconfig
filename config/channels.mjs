@@ -22,7 +22,8 @@ export default {
         "id": "762748248959483906"
     },
     "ROADMAP": {
-        "id": "748649755965522031"
+        "id": "748649755965522031",
+        "spammable": true
     },
     "FOCUSART": {
         "id": "902593785500946472",
@@ -73,5 +74,17 @@ export default {
     },
     "SOCIAL_VC": {
         "id": "1043686381295247411"
+    },
+    "SPAM": {
+        "id": "900894616889470997",
+        "spammable": true
+    },
+    "FOOD": {
+        "id": "1043377209768947722",
+        "spammable": true
+    },
+    "GAMING": {
+        "id": "1010910513166831626",
+        "spammable": true
     }
 }
