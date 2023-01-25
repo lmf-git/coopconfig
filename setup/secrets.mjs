@@ -23,4 +23,10 @@ export default async function secrets() {
     const { PURESTAKE_KEY, ALGORAND_KEY } = await getSecret('ALGORAND');
     process.env.PURESTAKE_KEY = PURESTAKE_KEY;
     process.env.ALGORAND_KEY = ALGORAND_KEY;
+
+    const { REDDIT_PASS, REDDIT_APP_ID, REDDIT_APP_SECRET } = await getSecret('REDDIT');
+    process.env.REDDIT_PASSWORD = REDDIT_PASS;
+    process.env.REDDIT_APP_ID = REDDIT_APP_ID;
+    process.env.REDDIT_APP_SECRET = REDDIT_APP_SECRET;
+
 }
