@@ -1,5 +1,4 @@
 export default {
-
     "MEMBER": {
         "name": "Member 🐔",
         "id": "724394130465357915",
@@ -191,6 +190,12 @@ export default {
         "category": "ACCESS",
         "description": ""
     },
+    "POST_INTRO": {
+        "name": "INTRO POST",
+        "id": "1055883478824140890",
+        "description": "Provides the ability to post an intro",
+        "category": "SYSTEM",
+    }
 
 
     //     Stocks Spam Victims 1004588123877023755
