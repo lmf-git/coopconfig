@@ -7,11 +7,10 @@ export default class Database {
     static async connect() {
         if (!this.connection) {
             const client = new Client({
-                database: 'postgres',
-                user: process.env.DB_USERNAME,
-                password: process.env.DB_PASSWORD,
-                host: process.env.DB_HOST,
-                port: process.env.DB_PORT
+                connectionString: process.env.DATABASE_URL,
+                ssl: {
+                    rejectUnauthorized: false
+                }
             });
               
             await client.connect();
