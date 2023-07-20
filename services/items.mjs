@@ -42,9 +42,11 @@ export default class Items {
 
         // Extract latest/assumed qty.
         let qty = 0;
-        const rowQuantity = itemRow.quantity || null;
+        const rowQuantity = itemRow?.quantity || null;
         if (itemRow && rowQuantity)
             qty = itemRow.quantity;
+
+        console.log(qty);
 
         // Delete EXACT 0 but not < 0, don't keep unnecessary default rows for item ownership.
         if (qty === 0) await this.delete(userID, itemCode)
