@@ -9,12 +9,14 @@ export default class Users {
     // load
     // searchByUsername
     
-    static count() {
-        return DatabaseHelper.singleQuery({
+    static async count() {
+        const result = await DatabaseHelper.singleQuery({
             name: "count-users",
-            text: "SELECT COUNT(*) FROM users",
-            values: [id]
+            text: "SELECT COUNT(*) FROM users"
         });
+        const userCount = result.count;
+        return userCount;
+
     }
     
     static loadSingleConquest(id) {
