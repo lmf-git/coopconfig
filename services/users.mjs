@@ -16,7 +16,6 @@ export default class Users {
         });
         const userCount = result.count;
         return userCount;
-
     }
     
     static loadSingleConquest(id) {
