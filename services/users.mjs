@@ -9,6 +9,14 @@ export default class Users {
     // load
     // searchByUsername
     
+    static count() {
+        return DatabaseHelper.singleQuery({
+            name: "count-users",
+            text: "SELECT COUNT(*) FROM users",
+            values: [id]
+        });
+    }
+    
     static loadSingleConquest(id) {
         return DatabaseHelper.singleQuery({
             name: "get-user-conquest",
