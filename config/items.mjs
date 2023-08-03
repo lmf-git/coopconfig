@@ -2,13 +2,21 @@ export default {
     "ELECTION_CROWN": {
         "image": "",
         "emoji": ":election_crown:837147802324697088",
-        "id": "837147802324697088"
+        "id": "837147802324697088",
+        "for_sale": false
+    },
+
+    "CHESTNUT": {
+        "image": "",
+        "emoji": ":chestnut:",
+        "unicode": "🌰"
     },
 
     "LEADERS_SWORD": {
         "image": "",
         "emoji": ":leaders_sword:832346879521456138",
-        "id": "832346879521456138"
+        "id": "832346879521456138",
+        "for_sale": false
     },
 
     "RABBIT": {
@@ -179,12 +187,14 @@ export default {
     "KINGS_EGG": {
         "image": "",
         "emoji": ":kings_egg:832022217009135656",
-        "id": "832022217009135656"
+        "id": "832022217009135656",
+        "for_sale": false
     },
     "LEGENDARY_EGG": {
         "image": "https://cdn.discordapp.com/emojis/764511545991626783.png?size=160&quality=lossless",
         "emoji": ":legendary_egg:764511545991626783",
-        "id": "764511545991626783"
+        "id": "764511545991626783",
+        "for_sale": false
     },
     "RARE_EGG": {
         "image": "https://cdn.discordapp.com/emojis/764511545739968544.png?size=160&quality=lossless",
@@ -204,12 +214,14 @@ export default {
     "CHRISTMAS_EGG": {
         "image": "",
         "emoji": ":christmas_egg:789665936990535721",
-        "id": "789665936990535721"
+        "id": "789665936990535721",
+        "for_sale": false
     },
     "EASTER_EGG": {
         "image": "",
         "emoji": ":easter_egg:828341042079203388",
-        "id": "828341042079203388"
+        "id": "828341042079203388",
+        "for_sale": false
     },
 
     "METAL_ORE": {
@@ -296,7 +308,6 @@ export default {
         "emoji": ":gold_bar:796486326617636884",
         "id": "796486326617636884"
     },
-
 
     "DIAMOND": {
         "image": "",

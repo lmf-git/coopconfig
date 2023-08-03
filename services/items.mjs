@@ -46,7 +46,7 @@ export default class Items {
         if (itemRow && rowQuantity)
             qty = itemRow.quantity;
 
-        console.log(qty);
+        // console.log(qty);
 
         // Delete EXACT 0 but not < 0, don't keep unnecessary default rows for item ownership.
         if (qty === 0) await this.delete(userID, itemCode)

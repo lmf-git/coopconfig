@@ -9,6 +9,8 @@ export default {
 
     "DROPPED": "⤵",
 
+    "CHESTNUT": "🌰",
+
     "BASKET": "🧺",
 
     "ELECTION_CROWN": ":election_crown:837147802324697088",
