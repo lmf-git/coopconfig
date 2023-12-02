@@ -89,23 +89,29 @@ export default class Items {
         // COOP.CHANNELS._send('TRADE', `${userID} ${item_code} ${qty} ${runningQty} ${reason}`);
 
         // Five percent chance of checking for clean up. (Gets run a lot).
-        const chance = new Chance;
-        if (chance.bool({ likelihood: .5 })) {
-            const numTxRows = await this.getTransactionRowCount();
-            if (numTxRows > 250) {
-                // Delete the last 100.
-                try {
-                    await Database.query({
-                        text: `DELETE FROM item_qty_change_history WHERE id = any (array(SELECT id FROM item_qty_change_history ORDER BY occurred_secs LIMIT 100))`
-                    });
-                } catch(e) {
-                    console.log('Error clipping item qty change history');
-                    console.error(e);
-                }
-            }
-        }
-
+        this.cleanupItemsHistory();
+        
         return successInsert;
+    }
+
+    // TODO: This is not a permanent solution move to an interval.
+    static async cleanupItemsHistory() {
+       // Five percent chance of checking for clean up. (Gets run a lot).
+       const chance = new Chance;
+       if (chance.bool({ likelihood: 5 })) {
+           const numTxRows = await this.getTransactionRowCount();
+           if (numTxRows > 250) {
+               // Delete the last 100.
+               try {
+                   await Database.query({
+                       text: `DELETE FROM item_qty_change_history WHERE id = any (array(SELECT id FROM item_qty_change_history ORDER BY occurred_secs LIMIT 100))`
+                   });
+               } catch(e) {
+                   console.log('Error clipping item qty change history');
+                   console.error(e);
+               }
+           }
+       }
     }
 
     static async getTransactionRowCount() {

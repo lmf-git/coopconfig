@@ -49,9 +49,6 @@ export default {
     "MONEY_COMPETITION": {
         "id": "845603592940945418"
     },
-    "STOCKS_VC": {
-        "id": "901562855814492170"
-    },
     "STOCKS_VC_TEXT": {
         "id": "1009109018716946473",
         "spammable": true
