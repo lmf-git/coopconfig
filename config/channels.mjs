@@ -24,7 +24,7 @@ export default {
     },
     "FOCUSART": {
         "id": "902593785500946472",
-        "spammable": true
+        "spammable": false
     },
     "ABOUT": {
         "id": "762472730980515870"
@@ -51,7 +51,7 @@ export default {
     },
     "STOCKS_VC_TEXT": {
         "id": "1009109018716946473",
-        "spammable": true
+        "spammable": false
     },
     "CREATE_SOCIAL": {
         "id": "1043359464880877569"
