@@ -56,10 +56,6 @@ export default {
     "CREATE_SOCIAL": {
         "id": "1043359464880877569"
     },
-    "SPAM": {
-        "id": "900894616889470997",
-        "spammable": true
-    },
     "FOOD": {
         "id": "1043377209768947722",
         "spammable": true
