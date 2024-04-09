@@ -50,8 +50,7 @@ export default {
         "id": "845603592940945418"
     },
     "STOCKS_VC_TEXT": {
-        "id": "1009109018716946473",
-        "spammable": false
+        "id": "1009109018716946473"
     },
     "CREATE_SOCIAL": {
         "id": "1043359464880877569"
