@@ -104,7 +104,7 @@ export default class Items {
                // Delete the last 100.
                try {
                    await Database.query({
-                       text: `DELETE FROM item_qty_change_history WHERE id = any (array(SELECT id FROM item_qty_change_history ORDER BY occurred_secs LIMIT 100))`
+                       text: `DELETE FROM item_qty_change_history WHERE id = any (array(SELECT id FROM item_qty_change_history ORDER BY occurred_secs ASC LIMIT 100))`
                    });
                } catch(e) {
                    console.log('Error clipping item qty change history');
