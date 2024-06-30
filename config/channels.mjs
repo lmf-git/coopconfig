@@ -20,7 +20,7 @@ export default {
     },
     "ROADMAP": {
         "id": "748649755965522031",
-        "spammable": true
+        "spammable": false
     },
     "FOCUSART": {
         "id": "902593785500946472",
