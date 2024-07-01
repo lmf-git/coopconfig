@@ -15,9 +15,6 @@ export default {
     "SUGGESTIONS": {
         "id": "723710770591957075"
     },
-    "LEADERS": {
-        "id": "762748248959483906"
-    },
     "ROADMAP": {
         "id": "748649755965522031",
         "spammable": false
