@@ -30,6 +30,10 @@ export default {
     "ELECTION": {
         "id": "796823730483363860"
     },
+    "PUBLIC_VC": {
+        "id": "1200884411135168583",
+        "spammable": false
+    },
     "CODING_CHAT": {
         "id": "822204573409083392",
         "spammable": true
