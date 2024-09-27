@@ -27,7 +27,6 @@ export default {
         "description": "",
         "locked": true
     },
-
     "BEGINNER": {
         "name": "Beginner 🥚",
         "id": "725531274973937664",

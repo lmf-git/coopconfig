@@ -149,6 +149,11 @@ export default {
         "emoji": ":monkey:",
         "unicode": "🐒"
     },
+    "KEY": {
+        "image": "",
+        "emoji": ":key:",
+        "unicode": "🔑"
+    },
     "CHICKEN": {
         "image": "",
         "emoji": ":chicken:",
