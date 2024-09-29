@@ -44,7 +44,7 @@ export default {
     "ART_COMPETITION": {
         "id": "845603527836303380"
     },
-    "MONEY_COMPETITION": {
+    "BUSINESS_COMPETITION": {
         "id": "845603592940945418"
     },
     "STOCKS_VC_TEXT": {
