@@ -7,6 +7,8 @@ export default {
     "ROADMAP": "🗺️",
     "ADVERT": "✨",
 
+    "KEY": "🔑",
+
     "DROPPED": "⤵",
 
     "CHESTNUT": "🌰",
