@@ -220,7 +220,8 @@ export default {
         "image": "",
         "emoji": ":christmas_egg:789665936990535721",
         "id": "789665936990535721",
-        "for_sale": false
+        "for_sale": false,
+        "assetID": "730225822"
     },
     "EASTER_EGG": {
         "image": "",
